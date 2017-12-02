@@ -1,0 +1,341 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.paragraph {
+    white-space: pre-line;
+}
+
+header {
+    background: url("../img/background.png") no-repeat top center / cover;
+    position: relative;
+    height: 90vh;
+    border-top: 10px solid #2ecc71;
+}
+
+.logo {
+    padding-top: 150px;
+    margin-left: 220px;
+}
+
+.iphone {
+    position: absolute;
+    bottom: -5px;
+    right: 125px;
+}
+
+.download-app .paragraph {
+    color: #ffffff;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-left: 220px;
+}
+
+.download {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 180px;
+}
+
+.download li {
+    padding-right: 14px;
+}
+
+.download img {
+    background-color: #030303;
+    opacity: 0.6;
+    border-radius: 25px;
+}
+
+
+.ios {
+    padding: 12px 17px 15px 15px;
+}
+
+.android {
+    padding: 14px 15px 14px 16px;
+}
+
+.windows {
+    padding: 14px 15px 14px 12px;
+}
+
+.item-list {
+    margin-bottom: 42px;
+}
+
+.item-list li {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+}
+
+.item-list li {
+    margin-top: 60px;
+}
+
+.item-list img {
+    background-color: #2ecc71;
+    border-radius: 150px;
+    padding: 28px;
+
+}
+
+.item-list .title {
+    color: #222222;
+    font-family: "Raleway - Semi Bold", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.item-list .paragraph {
+    color: #848484;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.get-notified-background {
+    background-color: #e3e3e3;
+}
+
+.get-notified {
+    float: left;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.video {
+    float: right;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 101px;
+}
+
+iframe {
+    border-radius: 25px;
+}
+
+.get-notified .title {
+    color: #222222;
+    font-family: "Raleway - Semi Bold", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.get-notified .paragraph {
+    color: #848484;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    border: 1px solid #c8c8c8;
+    border-radius: 20px;
+    color: #848484;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 22px 150px 20px 26px;
+
+}
+
+input[type="submit"] {
+    border: 1px solid #c8c8c8;
+    background-color: #2ecc71;
+    border-radius: 0 20px 20px 0;
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 20px 40px 22px 38px;
+    margin-left: -50px;
+}
+
+blockquote{
+    color: #848484;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+}
+
+cite {
+    display: block;
+    color: #2e2e2e;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.for-people .title {
+    color: #000000;
+    font-family: "Raleway - Semi Bold", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.for-people .paragraph {
+    color: #848484;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+.people {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.people li {
+    padding-left: 5px;
+}
+
+.for-people .title {
+    padding-top: 20px;
+}
+
+.social-network {
+    display: flex;
+    justify-content: center;
+}
+
+.social-network li {
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.social-network img {
+    background-color: #c5c5c5;
+    border-radius: 20px;
+}
+
+.twitter {
+    padding: 12px 8px 9px 9px;
+}
+
+.facebook {
+    padding: 9px 13px 8px 12px;
+}
+
+.pinterest {
+    padding: 7px;
+}
+
+.google {
+    padding: 9px 6px 7px 9px;
+}
+
+.linkedin {
+    padding: 9px 10px 9px 10px;
+}
+
+.youtube{
+    padding: 5px 8px 7px 8px;
+}
+
+footer {
+    background-color: #e3e3e3;
+    height: 130px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.menu a {
+    color: #848484;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.windows:hover {
+    background-color: #2ecc71;
+    border-radius: 25px;
+    padding: 14px 15px 14px 12px;
+    opacity: 1;
+}
+
+.android:hover {
+    background-color: #2ecc71;
+    border-radius: 25px;
+    padding: 14px 15px 14px 16px;
+    opacity: 1;
+}
+
+.ios:hover {
+    background-color: #2ecc71;
+    border-radius: 25px;
+    padding: 12px 17px 15px 15px;
+    opacity: 1;
+}
+
+.people img:hover {
+    background-color: #2ecc71;
+    opacity: 0.6;
+}
+
+.twitter:hover {
+    background-color: #2ecc71;
+}
+
+.social-network img:hover {
+    background-color: #2ecc71;
+}
